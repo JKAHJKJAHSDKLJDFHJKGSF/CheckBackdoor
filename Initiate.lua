@@ -18,5 +18,4 @@ for i, v in pairs(game:GetDescendants()) do
         task.wait(30)
         Progress:Destroy()
     end
-    task.wait(.1)
 end
